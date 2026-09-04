@@ -1,0 +1,39 @@
+.c-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+
+    padding: var(--space-sm) var(--space-md);
+
+    font: inherit;
+    font-weight: var(--font-weight-medium);
+
+    color: var(--color-surface);
+    background-color: var(--color-primary);
+
+    border: 0;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+
+    transition: filter var(--duration-fast) var(--ease-default);
+}
+
+.c-button:hover {
+    filter: brightness(0.9);
+}
+
+.c-button:focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 3px;
+}
+
+.c-button:active {
+    filter: brightness(0.8);
+}
+
+.c-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    filter: none;
+}

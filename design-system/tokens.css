@@ -12,6 +12,7 @@
 
     --color-success: #16a34a;
     --color-danger: #dc2626;
+    --color-focus: #2563eb;
 
     /* Spacing */
     --space-xs: 0.25rem;  /* 4px */
@@ -40,4 +41,8 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+
+    /* Motion */
+    --duration-fast: 150ms;
+    --ease-default: ease-in-out;
 }
