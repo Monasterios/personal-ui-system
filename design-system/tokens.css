@@ -45,4 +45,9 @@
     /* Motion */
     --duration-fast: 150ms;
     --ease-default: ease-in-out;
+
+    /* Sizes */
+    --size-sm: 20rem;
+    --size-md: 24rem;
+    --size-lg: 32rem;
 }

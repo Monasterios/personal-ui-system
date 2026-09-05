@@ -3,3 +3,10 @@
     margin-inline: auto;
     padding-block: var(--space-2xl);
 }
+
+.l-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-lg);
+}
